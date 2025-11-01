@@ -2,47 +2,53 @@
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 
-/* ============================================
-   THEME COLOR SYSTEM
-   Semua warna dalam satu tempat untuk mudah maintenance
-   ============================================ */
+
 
 @theme {
-  /* Primary Colors - Warna Utama Brand */
-  --color-primary-50: #f5e6ff;
-  --color-primary-100: #e6ccff;
-  --color-primary-200: #cc99ff;
-  --color-primary-300: #b366ff;
-  --color-primary-400: #9933ff;
-  --color-primary-500: #701F9B;  /* Main Primary Color */
-  --color-primary-600: #5a1879;
-  --color-primary-700: #43125a;
-  --color-primary-800: #2d0c3c;
-  --color-primary-900: #16061d;
+  /* ============================================
+     PRIMARY COLORS - Purple (Brand Identity)
+     Warna utama brand Kodeflow Academy
+     ============================================ */
+  --color-primary-50: #f5f0ff;
+  --color-primary-100: #ede5ff;
+  --color-primary-200: #dccfff;
+  --color-primary-300: #c3a9ff;
+  --color-primary-400: #a678ff;
+  --color-primary-500: #701F9B;  /* Main Purple - Brand Color */
+  --color-primary-600: #5d1980;
+  --color-primary-700: #4a1366;
+  --color-primary-800: #370d4d;
+  --color-primary-900: #240833;
 
-  /* Secondary Colors - Warna Pendukung */
-  --color-secondary-50: #f0f9ff;
-  --color-secondary-100: #e0f2fe;
-  --color-secondary-200: #bae6fd;
-  --color-secondary-300: #7dd3fc;
-  --color-secondary-400: #38bdf8;
-  --color-secondary-500: #0ea5e9;
-  --color-secondary-600: #0284c7;
-  --color-secondary-700: #0369a1;
-  --color-secondary-800: #075985;
-  --color-secondary-900: #0c4a6e;
+  /* ============================================
+     SECONDARY COLORS - Golden Yellow (Accent)
+     Warna pendukung untuk highlight & CTA
+     ============================================ */
+  --color-secondary-50: #fefce8;
+  --color-secondary-100: #fef9c3;
+  --color-secondary-200: #fef08a;
+  --color-secondary-300: #fde047;
+  --color-secondary-400: #facc15;
+  --color-secondary-500: #f0c932;  /* Main Gold/Yellow */
+  --color-secondary-600: #ca8a04;
+  --color-secondary-700: #a16207;
+  --color-secondary-800: #854d0e;
+  --color-secondary-900: #713f12;
 
-  /* Accent Colors - Warna Aksen */
-  --color-accent-50: #fef3c7;
-  --color-accent-100: #fde68a;
-  --color-accent-200: #fcd34d;
-  --color-accent-300: #fbbf24;
-  --color-accent-400: #f59e0b;
-  --color-accent-500: #d97706;
-  --color-accent-600: #b45309;
-  --color-accent-700: #92400e;
-  --color-accent-800: #78350f;
-  --color-accent-900: #451a03;
+  /* ============================================
+     ACCENT COLORS - Lime Green (Complement)
+     Warna aksen untuk energy & freshness
+     ============================================ */
+  --color-accent-50: #f7fee7;
+  --color-accent-100: #ecfccb;
+  --color-accent-200: #d9f99d;
+  --color-accent-300: #bef264;
+  --color-accent-400: #a3e635;
+  --color-accent-500: #84cc16;  /* Lime Green */
+  --color-accent-600: #65a30d;
+  --color-accent-700: #4d7c0f;
+  --color-accent-800: #3f6212;
+  --color-accent-900: #365314;
 
   /* Success Colors - Warna Sukses */
   --color-success-50: #f0fdf4;
@@ -80,17 +86,20 @@
   --color-error-800: #991b1b;
   --color-error-900: #7f1d1d;
 
-  /* Neutral/Gray Colors - Warna Netral */
-  --color-neutral-50: #fafafa;
-  --color-neutral-100: #f5f5f5;
-  --color-neutral-200: #e5e5e5;
-  --color-neutral-300: #d4d4d4;
-  --color-neutral-400: #a3a3a3;
-  --color-neutral-500: #737373;
-  --color-neutral-600: #525252;
-  --color-neutral-700: #404040;
-  --color-neutral-800: #262626;
-  --color-neutral-900: #171717;
+  /* ============================================
+     NEUTRAL COLORS - Warm Grays
+     Warna netral dengan sedikit warmth untuk cohesive
+     ============================================ */
+  --color-neutral-50: #fafaf9;
+  --color-neutral-100: #f5f5f4;
+  --color-neutral-200: #e7e5e4;
+  --color-neutral-300: #d6d3d1;
+  --color-neutral-400: #a8a29e;
+  --color-neutral-500: #78716c;
+  --color-neutral-600: #57534e;
+  --color-neutral-700: #44403c;
+  --color-neutral-800: #292524;
+  --color-neutral-900: #1c1917;
 }
 
 /* ============================================
@@ -98,22 +107,58 @@
    Classes tambahan untuk kemudahan penggunaan
    ============================================ */
 
+/* ============================================
+   CSS VARIABLES - Easy Access
+   Shorthand variables untuk penggunaan cepat
+   ============================================ */
+
 :root {
-  /* Text Colors - Mudah diakses untuk teks */
+  /* Brand Colors */
+  --brand-purple: var(--color-primary-500);
+  --brand-gold: var(--color-secondary-500);
+  --brand-lime: var(--color-accent-500);
+
+  /* Text Colors */
   --text-primary: var(--color-primary-500);
-  --text-secondary: var(--color-secondary-600);
+  --text-secondary: var(--color-neutral-700);
   --text-muted: var(--color-neutral-500);
   --text-dark: var(--color-neutral-900);
   --text-light: var(--color-neutral-100);
 
-  /* Background Colors - Mudah diakses untuk background */
+  /* Background Colors */
   --bg-primary: var(--color-primary-500);
   --bg-secondary: var(--color-secondary-500);
+  --bg-accent: var(--color-accent-400);
   --bg-light: var(--color-neutral-50);
   --bg-dark: var(--color-neutral-900);
 
-  /* Border Colors - Mudah diakses untuk border */
+  /* Surface Colors - untuk cards, panels */
+  --surface-light: #ffffff;
+  --surface-dark: var(--color-neutral-800);
+  --surface-purple: var(--color-primary-50);
+  --surface-gold: var(--color-secondary-50);
+  --surface-lime: var(--color-accent-50);
+
+  /* Border Colors */
   --border-primary: var(--color-primary-500);
   --border-light: var(--color-neutral-200);
   --border-dark: var(--color-neutral-700);
+  
+  /* Shadow Colors */
+  --shadow-primary: rgba(112, 31, 155, 0.2);
+  --shadow-secondary: rgba(240, 201, 50, 0.2);
+  --shadow-default: rgba(0, 0, 0, 0.1);
+}
+
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Offset untuk fixed navbar (h-20 = 80px) */
+}
+
+/* Disable smooth scroll saat user prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }

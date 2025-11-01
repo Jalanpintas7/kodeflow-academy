@@ -1,17 +1,17 @@
 <script>
-	import Hero from '$lib/components/Hero.svelte';
-	import Programs from '$lib/components/Programs.svelte';
-	import TeachingMethod from '$lib/components/TeachingMethod.svelte';
-	import Materials from '$lib/components/Materials.svelte';
-	import Teachers from '$lib/components/Teachers.svelte';
-	import FAQ from '$lib/components/FAQ.svelte';
-	import Footer from '$lib/components/Footer.svelte';
+	import Hero from '$lib/components/sections/Hero.svelte';
+	import Programs from '$lib/components/sections/Programs.svelte';
+	import TeachingMethod from '$lib/components/sections/TeachingMethod.svelte';
+	import Materials from '$lib/components/sections/Materials.svelte';
+	import Teachers from '$lib/components/sections/Teachers.svelte';
+	import FAQ from '$lib/components/sections/FAQ.svelte';
+	import Footer from '$lib/components/ui/Footer.svelte';
 </script>
 
 <Hero />
-<Teachers />
-<Programs />
 <TeachingMethod />
+<Programs />
+<Teachers />
 <Materials />
 <FAQ />
 <Footer />
