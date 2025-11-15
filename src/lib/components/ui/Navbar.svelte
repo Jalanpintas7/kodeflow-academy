@@ -1,6 +1,8 @@
 <script>
   import { onMount } from 'svelte';
   import { browser } from '$app/environment';
+  import { goto } from '$app/navigation';
+  import { page } from '$app/stores';
   import logo from '$lib/assets/logo/logo.png';
 
   // Navbar Component
@@ -105,15 +107,102 @@
     };
   }
 
-  function handleLinkClick(href) {
-    activeLink = href;
+  async function handleLinkClick(e, href) {
+    e.preventDefault();
+    
+    // Cek apakah sedang di homepage
+    const isHomepage = $page.url.pathname === '/';
+    
+    if (isHomepage) {
+      // Jika di homepage, scroll ke section
+      const targetId = href.substring(1);
+      const element = document.getElementById(targetId);
+      if (element) {
+        const navbarHeight = 80;
+        const targetPosition = element.offsetTop - navbarHeight;
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        });
+        activeLink = href;
+        // Update URL hash
+        window.history.pushState(null, '', href);
+      }
+    } else {
+      // Jika tidak di homepage, navigasi ke homepage dengan hash
+      await goto(`/${href}`, { 
+        noScroll: true,
+        replaceState: false 
+      });
+      
+      // Setelah navigasi, scroll ke section
+      if (browser) {
+        setTimeout(() => {
+          const targetId = href.substring(1);
+          const element = document.getElementById(targetId);
+          if (element) {
+            const navbarHeight = 80;
+            const targetPosition = element.offsetTop - navbarHeight;
+            window.scrollTo({
+              top: targetPosition,
+              behavior: 'smooth'
+            });
+            activeLink = href;
+          }
+        }, 100);
+      }
+    }
+    
     if (mobileMenuOpen) {
       toggleMobileMenu();
     }
   }
 
+  // Track previous pathname untuk detect navigasi
+  let previousPathname = '';
+  
+  // Reactive statement untuk handle perubahan halaman
+  $: if (browser) {
+    const currentPath = $page.url.pathname;
+    const hash = window.location.hash || '#home';
+    
+    // Jika navigasi ke homepage dari halaman lain
+    if (currentPath === '/' && previousPathname !== '/' && previousPathname !== '') {
+      activeLink = hash;
+      
+      // Scroll ke section jika ada hash
+      if (hash && hash !== '#home') {
+        setTimeout(() => {
+          const targetId = hash.substring(1);
+          const element = document.getElementById(targetId);
+          if (element) {
+            const navbarHeight = 80;
+            const targetPosition = element.offsetTop - navbarHeight;
+            window.scrollTo({
+              top: targetPosition,
+              behavior: 'smooth'
+            });
+          }
+        }, 200);
+      }
+    }
+    
+    previousPathname = currentPath;
+  }
+
   onMount(() => {
     setupScrollSpy();
+    // Initialize previousPathname
+    if (browser) {
+      previousPathname = $page.url.pathname;
+      // Set initial active link dari hash jika ada
+      if ($page.url.pathname === '/') {
+        const hash = window.location.hash;
+        if (hash) {
+          activeLink = hash;
+        }
+      }
+    }
   });
 </script>
 
@@ -144,7 +233,7 @@
           {#each navLinks as link}
             <a
               href={link.href}
-              on:click={() => handleLinkClick(link.href)}
+              on:click={(e) => handleLinkClick(e, link.href)}
               class="font-medium transition-all duration-300 px-4 py-2 rounded-full {activeLink ===
               link.href
                 ? 'bg-primary-500/95 text-white shadow-lg shadow-primary-500/30 scale-105 backdrop-blur-sm'
@@ -203,7 +292,7 @@
           {#each navLinks as link}
             <a
               href={link.href}
-              on:click={() => handleLinkClick(link.href)}
+              on:click={(e) => handleLinkClick(e, link.href)}
               class="font-medium px-4 py-3 rounded-xl transition-all duration-300 {activeLink ===
               link.href
                 ? 'bg-primary-500/95 text-white shadow-lg shadow-primary-500/30 backdrop-blur-sm border border-white/20'

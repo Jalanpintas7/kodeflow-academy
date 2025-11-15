@@ -202,10 +202,10 @@
 </script>
 
 <svelte:head>
-  <title>Belajar Dasar Pemrograman Dengan Scratch - Kodeflow Academy</title>
+  <title>Belajar Mobile App Development Dengan FlutterFlow - Kodeflow Academy</title>
   <meta
     name="description"
-    content="Platform coding visual dari MIT untuk anak SD. Belajar coding sambil bermain dengan membuat game, animasi, dan cerita interaktif."
+    content="Platform no-code/low-code yang powerful untuk membuat aplikasi mobile iOS & Android profesional. Build app seperti developer pro tanpa coding kompleks!"
   />
 </svelte:head>
 
@@ -458,7 +458,7 @@
           Kurikulum Pembelajaran
         </h2>
         <p class="text-gray-600 max-w-2xl mx-auto">
-          Terstruktur dari pengenalan hingga project game lengkap
+          Terstruktur dari pengenalan hingga project aplikasi lengkap
         </p>
       </div>
     </ScrollReveal>
@@ -538,10 +538,10 @@
         <h2
           class="text-3xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight"
         >
-          4 Game Keren yang Bakal Kamu Buat
+          4 Aplikasi Keren yang Bakal Kamu Buat
         </h2>
         <p class="text-lg text-gray-600">
-          Dari game sederhana sampai yang lebih kompleks, semua bikin sendiri!
+          Dari aplikasi sederhana sampai yang lebih kompleks, semua bikin sendiri!
         </p>
       </div>
     </ScrollReveal>
@@ -598,11 +598,10 @@
     <ScrollReveal animation="zoom">
       <div class="text-center max-w-3xl mx-auto text-white">
         <h2 class="text-4xl lg:text-5xl font-bold mb-6">
-          Siap Mulai Belajar Scratch?
+          Siap Mulai Belajar FlutterFlow?
         </h2>
         <p class="text-xl text-white/90 mb-8">
-          Bergabunglah dengan ratusan anak yang sudah belajar coding sambil
-          bermain bersama Scratch!
+          Bergabunglah dengan ratusan siswa yang sudah belajar membuat aplikasi mobile profesional bersama FlutterFlow!
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a
