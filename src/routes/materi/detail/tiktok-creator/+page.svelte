@@ -507,10 +507,10 @@
         <h2
           class="text-3xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight"
         >
-          4 Game Keren yang Bakal Kamu Buat
+          4 Konten Keren yang Bakal Kamu Buat
         </h2>
         <p class="text-lg text-gray-600">
-          Dari game sederhana sampai yang lebih kompleks, semua bikin sendiri!
+          Dari konten sederhana sampai yang lebih kompleks, semua bikin sendiri!
         </p>
       </div>
     </ScrollReveal>

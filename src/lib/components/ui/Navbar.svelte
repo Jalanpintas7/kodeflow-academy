@@ -35,6 +35,11 @@
     if (!browser) return;
 
     function updateActiveLink() {
+      // Jangan update activeLink jika tidak di homepage
+      if ($page.url.pathname !== '/') {
+        return;
+      }
+
       // Get navbar height for offset (80px = h-20 in Tailwind)
       const navbarHeight = 80;
       const scrollPosition = window.scrollY + navbarHeight + 50;
@@ -166,8 +171,12 @@
     const currentPath = $page.url.pathname;
     const hash = window.location.hash || '#home';
     
+    // Jika di halaman materi, set Materials sebagai active (prioritas tinggi)
+    if (currentPath.startsWith('/materi')) {
+      activeLink = '#materials';
+    }
     // Jika navigasi ke homepage dari halaman lain
-    if (currentPath === '/' && previousPathname !== '/' && previousPathname !== '') {
+    else if (currentPath === '/' && previousPathname !== '/' && previousPathname !== '') {
       activeLink = hash;
       
       // Scroll ke section jika ada hash
@@ -186,23 +195,38 @@
         }, 200);
       }
     }
+    // Jika di homepage, gunakan scroll spy (akan di-handle oleh setupScrollSpy)
+    else if (currentPath === '/') {
+      // Scroll spy akan handle ini
+      // Set initial dari hash jika ada
+      if (hash) {
+        activeLink = hash;
+      }
+    }
     
     previousPathname = currentPath;
   }
 
   onMount(() => {
-    setupScrollSpy();
     // Initialize previousPathname
     if (browser) {
       previousPathname = $page.url.pathname;
-      // Set initial active link dari hash jika ada
-      if ($page.url.pathname === '/') {
+      
+      // Set initial active link berdasarkan pathname
+      if ($page.url.pathname.startsWith('/materi')) {
+        activeLink = '#materials';
+      } else if ($page.url.pathname === '/') {
         const hash = window.location.hash;
         if (hash) {
           activeLink = hash;
+        } else {
+          activeLink = '#home';
         }
       }
     }
+    
+    // Setup scroll spy hanya untuk homepage
+    setupScrollSpy();
   });
 </script>
 
