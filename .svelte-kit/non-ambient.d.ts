@@ -27,15 +27,13 @@ export {};
 
 declare module "$app/types" {
 	export interface AppTypes {
-		RouteId(): "/" | "/color-preview" | "/demo" | "/demo/breadcrumb" | "/materi" | "/materi/automation" | "/materi/design-ui-ux" | "/materi/detail" | "/materi/detail/arduino" | "/materi/detail/canva" | "/materi/detail/construct3" | "/materi/detail/facebook-creator" | "/materi/detail/figma" | "/materi/detail/flutterflow" | "/materi/detail/instagram-creator" | "/materi/detail/iot" | "/materi/detail/marvel-app" | "/materi/detail/microbit" | "/materi/detail/n8n" | "/materi/detail/roblox-studio" | "/materi/detail/scratch-automation" | "/materi/detail/scratch" | "/materi/detail/thunkable" | "/materi/detail/tiktok-creator" | "/materi/detail/unity" | "/materi/detail/zapier" | "/materi/digital-marketing" | "/materi/game-development" | "/materi/iot-robotik" | "/materi/web-mobile-app";
+		RouteId(): "/" | "/color-preview" | "/materi" | "/materi/automation" | "/materi/design-ui-ux" | "/materi/detail" | "/materi/detail/arduino" | "/materi/detail/canva" | "/materi/detail/construct3" | "/materi/detail/facebook-creator" | "/materi/detail/figma" | "/materi/detail/flutterflow" | "/materi/detail/instagram-creator" | "/materi/detail/iot" | "/materi/detail/marvel-app" | "/materi/detail/microbit" | "/materi/detail/n8n" | "/materi/detail/roblox-studio" | "/materi/detail/scratch-automation" | "/materi/detail/scratch" | "/materi/detail/thunkable" | "/materi/detail/tiktok-creator" | "/materi/detail/unity" | "/materi/detail/zapier" | "/materi/digital-marketing" | "/materi/game-development" | "/materi/iot-robotik" | "/materi/web-mobile-app";
 		RouteParams(): {
 			
 		};
 		LayoutParams(): {
 			"/": Record<string, never>;
 			"/color-preview": Record<string, never>;
-			"/demo": Record<string, never>;
-			"/demo/breadcrumb": Record<string, never>;
 			"/materi": Record<string, never>;
 			"/materi/automation": Record<string, never>;
 			"/materi/design-ui-ux": Record<string, never>;
@@ -63,8 +61,8 @@ declare module "$app/types" {
 			"/materi/iot-robotik": Record<string, never>;
 			"/materi/web-mobile-app": Record<string, never>
 		};
-		Pathname(): "/" | "/color-preview" | "/color-preview/" | "/demo" | "/demo/" | "/demo/breadcrumb" | "/demo/breadcrumb/" | "/materi" | "/materi/" | "/materi/automation" | "/materi/automation/" | "/materi/design-ui-ux" | "/materi/design-ui-ux/" | "/materi/detail" | "/materi/detail/" | "/materi/detail/arduino" | "/materi/detail/arduino/" | "/materi/detail/canva" | "/materi/detail/canva/" | "/materi/detail/construct3" | "/materi/detail/construct3/" | "/materi/detail/facebook-creator" | "/materi/detail/facebook-creator/" | "/materi/detail/figma" | "/materi/detail/figma/" | "/materi/detail/flutterflow" | "/materi/detail/flutterflow/" | "/materi/detail/instagram-creator" | "/materi/detail/instagram-creator/" | "/materi/detail/iot" | "/materi/detail/iot/" | "/materi/detail/marvel-app" | "/materi/detail/marvel-app/" | "/materi/detail/microbit" | "/materi/detail/microbit/" | "/materi/detail/n8n" | "/materi/detail/n8n/" | "/materi/detail/roblox-studio" | "/materi/detail/roblox-studio/" | "/materi/detail/scratch-automation" | "/materi/detail/scratch-automation/" | "/materi/detail/scratch" | "/materi/detail/scratch/" | "/materi/detail/thunkable" | "/materi/detail/thunkable/" | "/materi/detail/tiktok-creator" | "/materi/detail/tiktok-creator/" | "/materi/detail/unity" | "/materi/detail/unity/" | "/materi/detail/zapier" | "/materi/detail/zapier/" | "/materi/digital-marketing" | "/materi/digital-marketing/" | "/materi/game-development" | "/materi/game-development/" | "/materi/iot-robotik" | "/materi/iot-robotik/" | "/materi/web-mobile-app" | "/materi/web-mobile-app/";
+		Pathname(): "/" | "/color-preview" | "/color-preview/" | "/materi" | "/materi/" | "/materi/automation" | "/materi/automation/" | "/materi/design-ui-ux" | "/materi/design-ui-ux/" | "/materi/detail" | "/materi/detail/" | "/materi/detail/arduino" | "/materi/detail/arduino/" | "/materi/detail/canva" | "/materi/detail/canva/" | "/materi/detail/construct3" | "/materi/detail/construct3/" | "/materi/detail/facebook-creator" | "/materi/detail/facebook-creator/" | "/materi/detail/figma" | "/materi/detail/figma/" | "/materi/detail/flutterflow" | "/materi/detail/flutterflow/" | "/materi/detail/instagram-creator" | "/materi/detail/instagram-creator/" | "/materi/detail/iot" | "/materi/detail/iot/" | "/materi/detail/marvel-app" | "/materi/detail/marvel-app/" | "/materi/detail/microbit" | "/materi/detail/microbit/" | "/materi/detail/n8n" | "/materi/detail/n8n/" | "/materi/detail/roblox-studio" | "/materi/detail/roblox-studio/" | "/materi/detail/scratch-automation" | "/materi/detail/scratch-automation/" | "/materi/detail/scratch" | "/materi/detail/scratch/" | "/materi/detail/thunkable" | "/materi/detail/thunkable/" | "/materi/detail/tiktok-creator" | "/materi/detail/tiktok-creator/" | "/materi/detail/unity" | "/materi/detail/unity/" | "/materi/detail/zapier" | "/materi/detail/zapier/" | "/materi/digital-marketing" | "/materi/digital-marketing/" | "/materi/game-development" | "/materi/game-development/" | "/materi/iot-robotik" | "/materi/iot-robotik/" | "/materi/web-mobile-app" | "/materi/web-mobile-app/";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
-		Asset(): "/robots.txt" | string & {};
+		Asset(): "/.gitignore" | "/robots.txt" | string & {};
 	}
 }

@@ -1,0 +1,1027 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_environment.js"
+    ]
+  },
+  "_Breadcrumb.js": {
+    "file": "chunks/Breadcrumb.js",
+    "name": "Breadcrumb",
+    "imports": [
+      "_index2.js",
+      "_context.js"
+    ]
+  },
+  "_Footer.js": {
+    "file": "chunks/Footer.js",
+    "name": "Footer",
+    "imports": [
+      "_index2.js"
+    ],
+    "assets": [
+      "_app/immutable/assets/logopng.DBNtqXGZ.png"
+    ]
+  },
+  "_ScrollReveal.js": {
+    "file": "chunks/ScrollReveal.js",
+    "name": "ScrollReveal",
+    "imports": [
+      "_index2.js"
+    ]
+  },
+  "_arduinoHD.js": {
+    "file": "chunks/arduinoHD.js",
+    "name": "arduinoHD",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ],
+    "assets": [
+      "_app/immutable/assets/arduinoHD.CbhTqYWK.png"
+    ]
+  },
+  "_blocks.js": {
+    "file": "chunks/blocks.js",
+    "name": "blocks",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ]
+  },
+  "_bot.js": {
+    "file": "chunks/bot.js",
+    "name": "bot",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ]
+  },
+  "_c3.js": {
+    "file": "chunks/c3.js",
+    "name": "c3",
+    "assets": [
+      "_app/immutable/assets/c3.IWyqokDS.svg"
+    ]
+  },
+  "_camera.js": {
+    "file": "chunks/camera.js",
+    "name": "camera",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ]
+  },
+  "_canvaHD.js": {
+    "file": "chunks/canvaHD.js",
+    "name": "canvaHD",
+    "assets": [
+      "_app/immutable/assets/canvaHD.DZnmiKJI.png"
+    ]
+  },
+  "_code.js": {
+    "file": "chunks/code.js",
+    "name": "code",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ]
+  },
+  "_context.js": {
+    "file": "chunks/context.js",
+    "name": "context"
+  },
+  "_cpu.js": {
+    "file": "chunks/cpu.js",
+    "name": "cpu",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ]
+  },
+  "_database.js": {
+    "file": "chunks/database.js",
+    "name": "database",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ]
+  },
+  "_environment.js": {
+    "file": "chunks/environment.js",
+    "name": "environment"
+  },
+  "_equality.js": {
+    "file": "chunks/equality.js",
+    "name": "equality"
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports"
+  },
+  "_fbHD.js": {
+    "file": "chunks/fbHD.js",
+    "name": "fbHD"
+  },
+  "_figmaHD.js": {
+    "file": "chunks/figmaHD.js",
+    "name": "figmaHD",
+    "assets": [
+      "_app/immutable/assets/figmaHD.6grCgRY7.png"
+    ]
+  },
+  "_flutterflowHD.js": {
+    "file": "chunks/flutterflowHD.js",
+    "name": "flutterflowHD",
+    "assets": [
+      "_app/immutable/assets/flutterflowHD.Bhj2mbhp.jpeg"
+    ]
+  },
+  "_gamepad-2.js": {
+    "file": "chunks/gamepad-2.js",
+    "name": "gamepad-2",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ]
+  },
+  "_globe.js": {
+    "file": "chunks/globe.js",
+    "name": "globe",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ]
+  },
+  "_igHD.js": {
+    "file": "chunks/igHD.js",
+    "name": "igHD",
+    "assets": [
+      "_app/immutable/assets/igHD.BGdB6p1c.png"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index",
+    "imports": [
+      "_context.js",
+      "_equality.js"
+    ]
+  },
+  "_index2.js": {
+    "file": "chunks/index2.js",
+    "name": "index",
+    "imports": [
+      "_context.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_index2.js",
+      "_environment.js",
+      "_context.js",
+      "_equality.js"
+    ]
+  },
+  "_iotHD.js": {
+    "file": "chunks/iotHD.js",
+    "name": "iotHD",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ],
+    "assets": [
+      "_app/immutable/assets/iotHD.BGPhqqi3.png"
+    ]
+  },
+  "_layers.js": {
+    "file": "chunks/layers.js",
+    "name": "layers",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ]
+  },
+  "_link.js": {
+    "file": "chunks/link.js",
+    "name": "link",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ]
+  },
+  "_marvelAppHD.js": {
+    "file": "chunks/marvelAppHD.js",
+    "name": "marvelAppHD",
+    "assets": [
+      "_app/immutable/assets/marvelAppHD.BWEJMu21.png"
+    ]
+  },
+  "_microbitHD.js": {
+    "file": "chunks/microbitHD.js",
+    "name": "microbitHD",
+    "assets": [
+      "_app/immutable/assets/microbitHD.B6Cn5Dz_.png"
+    ]
+  },
+  "_n8nHD.js": {
+    "file": "chunks/n8nHD.js",
+    "name": "n8nHD",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ],
+    "assets": [
+      "_app/immutable/assets/n8nHD.mASsIz-J.png"
+    ]
+  },
+  "_palette.js": {
+    "file": "chunks/palette.js",
+    "name": "palette",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ]
+  },
+  "_robloxHD.js": {
+    "file": "chunks/robloxHD.js",
+    "name": "robloxHD",
+    "assets": [
+      "_app/immutable/assets/robloxHD.CKKIgiuT.png"
+    ]
+  },
+  "_scratchHD.js": {
+    "file": "chunks/scratchHD.js",
+    "name": "scratchHD",
+    "assets": [
+      "_app/immutable/assets/scratchHD.C2I6mzxN.png"
+    ]
+  },
+  "_shared.js": {
+    "file": "chunks/shared.js",
+    "name": "shared",
+    "imports": [
+      "_utils.js"
+    ]
+  },
+  "_smartphone.js": {
+    "file": "chunks/smartphone.js",
+    "name": "smartphone",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ]
+  },
+  "_sparkles.js": {
+    "file": "chunks/sparkles.js",
+    "name": "sparkles",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ]
+  },
+  "_state.svelte.js": {
+    "file": "chunks/state.svelte.js",
+    "name": "state.svelte",
+    "imports": [
+      "_context.js"
+    ]
+  },
+  "_thunkableHD.js": {
+    "file": "chunks/thunkableHD.js",
+    "name": "thunkableHD",
+    "assets": [
+      "_app/immutable/assets/thunkableHD.i2OJPEN0.png"
+    ]
+  },
+  "_trending-up.js": {
+    "file": "chunks/trending-up.js",
+    "name": "trending-up",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ]
+  },
+  "_ttHD.js": {
+    "file": "chunks/ttHD.js",
+    "name": "ttHD",
+    "assets": [
+      "_app/immutable/assets/ttHD.XKjKmOim.png"
+    ]
+  },
+  "_unityHD.js": {
+    "file": "chunks/unityHD.js",
+    "name": "unityHD",
+    "assets": [
+      "_app/immutable/assets/unityHD.CC6DZ1eV.png"
+    ]
+  },
+  "_users.js": {
+    "file": "chunks/users.js",
+    "name": "users",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ]
+  },
+  "_utils.js": {
+    "file": "chunks/utils.js",
+    "name": "utils"
+  },
+  "_video.js": {
+    "file": "chunks/video.js",
+    "name": "video",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ]
+  },
+  "_zap.js": {
+    "file": "chunks/zap.js",
+    "name": "zap",
+    "imports": [
+      "_index2.js",
+      "_Breadcrumb.js"
+    ]
+  },
+  "_zapierHD.js": {
+    "file": "chunks/zapierHD.js",
+    "name": "zapierHD",
+    "assets": [
+      "_app/immutable/assets/zapierHD.Kv1anrgL.png"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/app/server/remote/index.js": {
+    "file": "remote-entry.js",
+    "name": "remote-entry",
+    "src": "node_modules/@sveltejs/kit/src/runtime/app/server/remote/index.js",
+    "isEntry": true,
+    "imports": [
+      "_shared.js",
+      "_environment.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_context.js",
+      "_state.svelte.js",
+      "_exports.js",
+      "_utils.js",
+      "_index.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_environment.js",
+      "_exports.js",
+      "_utils.js",
+      "_index.js",
+      "_internal.js",
+      "_shared.js"
+    ]
+  },
+  "src/lib/assets/images/hero/hero-child.png": {
+    "file": "_app/immutable/assets/hero-child.DxmbZyKa.png",
+    "src": "src/lib/assets/images/hero/hero-child.png"
+  },
+  "src/lib/assets/images/materi/appdev.png": {
+    "file": "_app/immutable/assets/appdev.DHXYQuSg.png",
+    "src": "src/lib/assets/images/materi/appdev.png"
+  },
+  "src/lib/assets/images/materi/arduinoHD.png": {
+    "file": "_app/immutable/assets/arduinoHD.CbhTqYWK.png",
+    "src": "src/lib/assets/images/materi/arduinoHD.png"
+  },
+  "src/lib/assets/images/materi/c3.svg": {
+    "file": "_app/immutable/assets/c3.IWyqokDS.svg",
+    "src": "src/lib/assets/images/materi/c3.svg"
+  },
+  "src/lib/assets/images/materi/canvaHD.png": {
+    "file": "_app/immutable/assets/canvaHD.DZnmiKJI.png",
+    "src": "src/lib/assets/images/materi/canvaHD.png"
+  },
+  "src/lib/assets/images/materi/digitalmarketing.png": {
+    "file": "_app/immutable/assets/digitalmarketing.CmjzFcXS.png",
+    "src": "src/lib/assets/images/materi/digitalmarketing.png"
+  },
+  "src/lib/assets/images/materi/figmaHD.png": {
+    "file": "_app/immutable/assets/figmaHD.6grCgRY7.png",
+    "src": "src/lib/assets/images/materi/figmaHD.png"
+  },
+  "src/lib/assets/images/materi/flutterflowHD.jpeg": {
+    "file": "_app/immutable/assets/flutterflowHD.Bhj2mbhp.jpeg",
+    "src": "src/lib/assets/images/materi/flutterflowHD.jpeg"
+  },
+  "src/lib/assets/images/materi/gamedev.png": {
+    "file": "_app/immutable/assets/gamedev.CumAWpHD.png",
+    "src": "src/lib/assets/images/materi/gamedev.png"
+  },
+  "src/lib/assets/images/materi/igHD.png": {
+    "file": "_app/immutable/assets/igHD.BGdB6p1c.png",
+    "src": "src/lib/assets/images/materi/igHD.png"
+  },
+  "src/lib/assets/images/materi/iotHD.png": {
+    "file": "_app/immutable/assets/iotHD.BGPhqqi3.png",
+    "src": "src/lib/assets/images/materi/iotHD.png"
+  },
+  "src/lib/assets/images/materi/marvelAppHD.png": {
+    "file": "_app/immutable/assets/marvelAppHD.BWEJMu21.png",
+    "src": "src/lib/assets/images/materi/marvelAppHD.png"
+  },
+  "src/lib/assets/images/materi/microbitHD.png": {
+    "file": "_app/immutable/assets/microbitHD.B6Cn5Dz_.png",
+    "src": "src/lib/assets/images/materi/microbitHD.png"
+  },
+  "src/lib/assets/images/materi/n8nHD.png": {
+    "file": "_app/immutable/assets/n8nHD.mASsIz-J.png",
+    "src": "src/lib/assets/images/materi/n8nHD.png"
+  },
+  "src/lib/assets/images/materi/robloxHD.png": {
+    "file": "_app/immutable/assets/robloxHD.CKKIgiuT.png",
+    "src": "src/lib/assets/images/materi/robloxHD.png"
+  },
+  "src/lib/assets/images/materi/scratch.png": {
+    "file": "_app/immutable/assets/scratch.CsFXRCvz.png",
+    "src": "src/lib/assets/images/materi/scratch.png"
+  },
+  "src/lib/assets/images/materi/scratchHD.png": {
+    "file": "_app/immutable/assets/scratchHD.C2I6mzxN.png",
+    "src": "src/lib/assets/images/materi/scratchHD.png"
+  },
+  "src/lib/assets/images/materi/thunkable.png": {
+    "file": "_app/immutable/assets/thunkable.CqSvGTZR.png",
+    "src": "src/lib/assets/images/materi/thunkable.png"
+  },
+  "src/lib/assets/images/materi/thunkableHD.png": {
+    "file": "_app/immutable/assets/thunkableHD.i2OJPEN0.png",
+    "src": "src/lib/assets/images/materi/thunkableHD.png"
+  },
+  "src/lib/assets/images/materi/ttHD.png": {
+    "file": "_app/immutable/assets/ttHD.XKjKmOim.png",
+    "src": "src/lib/assets/images/materi/ttHD.png"
+  },
+  "src/lib/assets/images/materi/unityHD.png": {
+    "file": "_app/immutable/assets/unityHD.CC6DZ1eV.png",
+    "src": "src/lib/assets/images/materi/unityHD.png"
+  },
+  "src/lib/assets/images/materi/ux.png": {
+    "file": "_app/immutable/assets/ux.DB2lxZMk.png",
+    "src": "src/lib/assets/images/materi/ux.png"
+  },
+  "src/lib/assets/images/materi/zapierHD.png": {
+    "file": "_app/immutable/assets/zapierHD.Kv1anrgL.png",
+    "src": "src/lib/assets/images/materi/zapierHD.png"
+  },
+  "src/lib/assets/images/programs/mhs.png": {
+    "file": "_app/immutable/assets/mhs.Dc2d4TFO.png",
+    "src": "src/lib/assets/images/programs/mhs.png"
+  },
+  "src/lib/assets/images/programs/sd.webp": {
+    "file": "_app/immutable/assets/sd.D5oJKKbD.webp",
+    "src": "src/lib/assets/images/programs/sd.webp"
+  },
+  "src/lib/assets/images/programs/sma.webp": {
+    "file": "_app/immutable/assets/sma.Cdo9sCx2.webp",
+    "src": "src/lib/assets/images/programs/sma.webp"
+  },
+  "src/lib/assets/images/programs/smp.webp": {
+    "file": "_app/immutable/assets/smp.DHeQAUDh.webp",
+    "src": "src/lib/assets/images/programs/smp.webp"
+  },
+  "src/lib/assets/images/teachers/school.webp": {
+    "file": "_app/immutable/assets/school.B2vOoATX.webp",
+    "src": "src/lib/assets/images/teachers/school.webp"
+  },
+  "src/lib/assets/logo/logo.png": {
+    "file": "_app/immutable/assets/logo.fslOsacv.png",
+    "src": "src/lib/assets/logo/logo.png"
+  },
+  "src/lib/assets/logo/logopng.png": {
+    "file": "_app/immutable/assets/logopng.DBNtqXGZ.png",
+    "src": "src/lib/assets/logo/logopng.png"
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_exports.js",
+      "_utils.js",
+      "_state.svelte.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.BR8aBAnh.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/logo.fslOsacv.png"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_context.js",
+      "_Footer.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.ClYhC2uB.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/hero-child.DxmbZyKa.png",
+      "_app/immutable/assets/sd.D5oJKKbD.webp",
+      "_app/immutable/assets/smp.DHeQAUDh.webp",
+      "_app/immutable/assets/sma.Cdo9sCx2.webp",
+      "_app/immutable/assets/mhs.Dc2d4TFO.png",
+      "_app/immutable/assets/appdev.DHXYQuSg.png",
+      "_app/immutable/assets/gamedev.CumAWpHD.png",
+      "_app/immutable/assets/ux.DB2lxZMk.png",
+      "_app/immutable/assets/digitalmarketing.CmjzFcXS.png",
+      "_app/immutable/assets/scratch.CsFXRCvz.png",
+      "_app/immutable/assets/thunkable.CqSvGTZR.png",
+      "_app/immutable/assets/school.B2vOoATX.webp"
+    ]
+  },
+  "src/routes/color-preview/+page.svelte": {
+    "file": "entries/pages/color-preview/_page.svelte.js",
+    "name": "entries/pages/color-preview/_page.svelte",
+    "src": "src/routes/color-preview/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_context.js"
+    ]
+  },
+  "src/routes/materi/automation/+page.svelte": {
+    "file": "entries/pages/materi/automation/_page.svelte.js",
+    "name": "entries/pages/materi/automation/_page.svelte",
+    "src": "src/routes/materi/automation/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_Footer.js",
+      "_scratchHD.js",
+      "_zapierHD.js",
+      "_n8nHD.js",
+      "_zap.js",
+      "_bot.js",
+      "_context.js"
+    ]
+  },
+  "src/routes/materi/design-ui-ux/+page.svelte": {
+    "file": "entries/pages/materi/design-ui-ux/_page.svelte.js",
+    "name": "entries/pages/materi/design-ui-ux/_page.svelte",
+    "src": "src/routes/materi/design-ui-ux/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_Footer.js",
+      "_canvaHD.js",
+      "_marvelAppHD.js",
+      "_figmaHD.js",
+      "_palette.js",
+      "_layers.js",
+      "_sparkles.js",
+      "_context.js"
+    ]
+  },
+  "src/routes/materi/detail/arduino/+page.svelte": {
+    "file": "entries/pages/materi/detail/arduino/_page.svelte.js",
+    "name": "entries/pages/materi/detail/arduino/_page.svelte",
+    "src": "src/routes/materi/detail/arduino/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_arduinoHD.js",
+      "_cpu.js",
+      "_zap.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CaS9-eOa.css"
+    ]
+  },
+  "src/routes/materi/detail/canva/+page.svelte": {
+    "file": "entries/pages/materi/detail/canva/_page.svelte.js",
+    "name": "entries/pages/materi/detail/canva/_page.svelte",
+    "src": "src/routes/materi/detail/canva/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_canvaHD.js",
+      "_palette.js",
+      "_sparkles.js",
+      "_users.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.FVFNa4rE.css"
+    ]
+  },
+  "src/routes/materi/detail/construct3/+page.svelte": {
+    "file": "entries/pages/materi/detail/construct3/_page.svelte.js",
+    "name": "entries/pages/materi/detail/construct3/_page.svelte",
+    "src": "src/routes/materi/detail/construct3/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_c3.js",
+      "_gamepad-2.js",
+      "_zap.js",
+      "_globe.js",
+      "_code.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Boii7sT0.css"
+    ]
+  },
+  "src/routes/materi/detail/facebook-creator/+page.svelte": {
+    "file": "entries/pages/materi/detail/facebook-creator/_page.svelte.js",
+    "name": "entries/pages/materi/detail/facebook-creator/_page.svelte",
+    "src": "src/routes/materi/detail/facebook-creator/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_fbHD.js",
+      "_video.js",
+      "_users.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CSBr-HKM.css"
+    ]
+  },
+  "src/routes/materi/detail/figma/+page.svelte": {
+    "file": "entries/pages/materi/detail/figma/_page.svelte.js",
+    "name": "entries/pages/materi/detail/figma/_page.svelte",
+    "src": "src/routes/materi/detail/figma/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_figmaHD.js",
+      "_users.js",
+      "_layers.js",
+      "_sparkles.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Csvq0Q3_.css"
+    ]
+  },
+  "src/routes/materi/detail/flutterflow/+page.svelte": {
+    "file": "entries/pages/materi/detail/flutterflow/_page.svelte.js",
+    "name": "entries/pages/materi/detail/flutterflow/_page.svelte",
+    "src": "src/routes/materi/detail/flutterflow/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_flutterflowHD.js",
+      "_smartphone.js",
+      "_layers.js",
+      "_database.js",
+      "_code.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Bn4dvnGP.css"
+    ]
+  },
+  "src/routes/materi/detail/instagram-creator/+page.svelte": {
+    "file": "entries/pages/materi/detail/instagram-creator/_page.svelte.js",
+    "name": "entries/pages/materi/detail/instagram-creator/_page.svelte",
+    "src": "src/routes/materi/detail/instagram-creator/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_igHD.js",
+      "_camera.js",
+      "_users.js",
+      "_trending-up.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Cf5mi2AL.css"
+    ]
+  },
+  "src/routes/materi/detail/iot/+page.svelte": {
+    "file": "entries/pages/materi/detail/iot/_page.svelte.js",
+    "name": "entries/pages/materi/detail/iot/_page.svelte",
+    "src": "src/routes/materi/detail/iot/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_iotHD.js",
+      "_smartphone.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Dhavr81P.css"
+    ]
+  },
+  "src/routes/materi/detail/marvel-app/+page.svelte": {
+    "file": "entries/pages/materi/detail/marvel-app/_page.svelte.js",
+    "name": "entries/pages/materi/detail/marvel-app/_page.svelte",
+    "src": "src/routes/materi/detail/marvel-app/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_marvelAppHD.js",
+      "_smartphone.js",
+      "_zap.js",
+      "_users.js",
+      "_link.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.C0n56xC-.css"
+    ]
+  },
+  "src/routes/materi/detail/microbit/+page.svelte": {
+    "file": "entries/pages/materi/detail/microbit/_page.svelte.js",
+    "name": "entries/pages/materi/detail/microbit/_page.svelte",
+    "src": "src/routes/materi/detail/microbit/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_microbitHD.js",
+      "_cpu.js",
+      "_zap.js",
+      "_gamepad-2.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CZluYA5u.css"
+    ]
+  },
+  "src/routes/materi/detail/n8n/+page.svelte": {
+    "file": "entries/pages/materi/detail/n8n/_page.svelte.js",
+    "name": "entries/pages/materi/detail/n8n/_page.svelte",
+    "src": "src/routes/materi/detail/n8n/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_n8nHD.js",
+      "_code.js",
+      "_database.js",
+      "_cpu.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.C7tCth2N.css"
+    ]
+  },
+  "src/routes/materi/detail/roblox-studio/+page.svelte": {
+    "file": "entries/pages/materi/detail/roblox-studio/_page.svelte.js",
+    "name": "entries/pages/materi/detail/roblox-studio/_page.svelte",
+    "src": "src/routes/materi/detail/roblox-studio/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_robloxHD.js",
+      "_gamepad-2.js",
+      "_users.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Z5wXF-xA.css"
+    ]
+  },
+  "src/routes/materi/detail/scratch-automation/+page.svelte": {
+    "file": "entries/pages/materi/detail/scratch-automation/_page.svelte.js",
+    "name": "entries/pages/materi/detail/scratch-automation/_page.svelte",
+    "src": "src/routes/materi/detail/scratch-automation/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_scratchHD.js",
+      "_blocks.js",
+      "_bot.js",
+      "_sparkles.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.dPlejKul.css"
+    ]
+  },
+  "src/routes/materi/detail/scratch/+page.svelte": {
+    "file": "entries/pages/materi/detail/scratch/_page.svelte.js",
+    "name": "entries/pages/materi/detail/scratch/_page.svelte",
+    "src": "src/routes/materi/detail/scratch/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_scratchHD.js",
+      "_blocks.js",
+      "_palette.js",
+      "_gamepad-2.js",
+      "_users.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BZzkg3qN.css"
+    ]
+  },
+  "src/routes/materi/detail/thunkable/+page.svelte": {
+    "file": "entries/pages/materi/detail/thunkable/_page.svelte.js",
+    "name": "entries/pages/materi/detail/thunkable/_page.svelte",
+    "src": "src/routes/materi/detail/thunkable/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_thunkableHD.js",
+      "_smartphone.js",
+      "_camera.js",
+      "_database.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.D2EPAQmD.css"
+    ]
+  },
+  "src/routes/materi/detail/tiktok-creator/+page.svelte": {
+    "file": "entries/pages/materi/detail/tiktok-creator/_page.svelte.js",
+    "name": "entries/pages/materi/detail/tiktok-creator/_page.svelte",
+    "src": "src/routes/materi/detail/tiktok-creator/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_ttHD.js",
+      "_video.js",
+      "_sparkles.js",
+      "_users.js",
+      "_trending-up.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BOOgXKXy.css"
+    ]
+  },
+  "src/routes/materi/detail/unity/+page.svelte": {
+    "file": "entries/pages/materi/detail/unity/_page.svelte.js",
+    "name": "entries/pages/materi/detail/unity/_page.svelte",
+    "src": "src/routes/materi/detail/unity/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_unityHD.js",
+      "_gamepad-2.js",
+      "_sparkles.js",
+      "_globe.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BTTXFotu.css"
+    ]
+  },
+  "src/routes/materi/detail/zapier/+page.svelte": {
+    "file": "entries/pages/materi/detail/zapier/_page.svelte.js",
+    "name": "entries/pages/materi/detail/zapier/_page.svelte",
+    "src": "src/routes/materi/detail/zapier/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_zapierHD.js",
+      "_zap.js",
+      "_link.js",
+      "_trending-up.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Dxp01JFE.css"
+    ]
+  },
+  "src/routes/materi/digital-marketing/+page.svelte": {
+    "file": "entries/pages/materi/digital-marketing/_page.svelte.js",
+    "name": "entries/pages/materi/digital-marketing/_page.svelte",
+    "src": "src/routes/materi/digital-marketing/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_Footer.js",
+      "_igHD.js",
+      "_ttHD.js",
+      "_fbHD.js",
+      "_trending-up.js",
+      "_context.js"
+    ]
+  },
+  "src/routes/materi/game-development/+page.svelte": {
+    "file": "entries/pages/materi/game-development/_page.svelte.js",
+    "name": "entries/pages/materi/game-development/_page.svelte",
+    "src": "src/routes/materi/game-development/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_Footer.js",
+      "_robloxHD.js",
+      "_c3.js",
+      "_unityHD.js",
+      "_gamepad-2.js",
+      "_blocks.js",
+      "_zap.js",
+      "_context.js"
+    ]
+  },
+  "src/routes/materi/iot-robotik/+page.svelte": {
+    "file": "entries/pages/materi/iot-robotik/_page.svelte.js",
+    "name": "entries/pages/materi/iot-robotik/_page.svelte",
+    "src": "src/routes/materi/iot-robotik/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_Footer.js",
+      "_microbitHD.js",
+      "_arduinoHD.js",
+      "_iotHD.js",
+      "_bot.js",
+      "_cpu.js",
+      "_context.js"
+    ]
+  },
+  "src/routes/materi/web-mobile-app/+page.svelte": {
+    "file": "entries/pages/materi/web-mobile-app/_page.svelte.js",
+    "name": "entries/pages/materi/web-mobile-app/_page.svelte",
+    "src": "src/routes/materi/web-mobile-app/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ScrollReveal.js",
+      "_Breadcrumb.js",
+      "_Footer.js",
+      "_scratchHD.js",
+      "_thunkableHD.js",
+      "_flutterflowHD.js",
+      "_blocks.js",
+      "_smartphone.js",
+      "_zap.js",
+      "_context.js"
+    ]
+  }
+}
