@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/materi/detail/tiktok-creator/+page.svelte";

@@ -231,12 +231,12 @@
                   >
                     <!-- Image Side - First on mobile, Second on desktop -->
                     <div
-                      class="relative overflow-hidden order-1 md:order-1 {material.colorClass} min-h-[180px] sm:min-h-[220px] md:min-h-0"
+                      class="relative overflow-hidden order-1 md:order-1 bg-white min-h-[180px] sm:min-h-[220px] md:min-h-0"
                     >
                       <img
                         src={material.image}
                         alt={material.title}
-                        class="w-full h-full object-cover opacity-15 transition-all duration-700 group-hover:opacity-25 group-hover:scale-110"
+                        class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
                       />
 
                       <!-- Floating Badge -->
@@ -244,10 +244,10 @@
                         class="absolute top-3 left-3 sm:top-4 sm:left-4 md:top-6 md:left-6 lg:top-8 lg:left-8"
                       >
                         <div
-                          class="bg-white px-3 py-1.5 sm:px-4 sm:py-2 md:px-6 md:py-3 rounded-full shadow-lg"
+                          class="{material.colorClass} px-3 py-1.5 sm:px-4 sm:py-2 md:px-6 md:py-3 rounded-full shadow-lg"
                         >
                           <span
-                            class="text-xs sm:text-sm font-bold {material.textColorClass}"
+                            class="text-xs sm:text-sm font-bold text-white"
                           >
                             Materi #{index + 1}
                           </span>
@@ -257,19 +257,19 @@
 
                     <!-- Content Side - Second on mobile, Second on desktop -->
                     <div
-                      class="relative flex flex-col justify-center p-6 sm:p-8 lg:p-12 xl:p-16 bg-white order-2 md:order-2"
+                      class="relative flex flex-col justify-center p-6 sm:p-8 lg:p-12 xl:p-16 {material.colorClass} order-2 md:order-2"
                     >
                       <div class="space-y-3 sm:space-y-4 lg:space-y-6">
                         <!-- Title -->
                         <h3
-                          class="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 leading-tight transition-all duration-300 group-hover:translate-x-2"
+                          class="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-white leading-tight transition-all duration-300 group-hover:translate-x-2"
                         >
                           {material.title}
                         </h3>
 
                         <!-- Description -->
                         <p
-                          class="text-gray-600 text-sm sm:text-base lg:text-lg leading-relaxed"
+                          class="text-white/90 text-sm sm:text-base lg:text-lg leading-relaxed"
                         >
                           {material.description}
                         </p>
@@ -277,34 +277,34 @@
                         <!-- Stats -->
                         <div class="grid grid-cols-3 gap-2 sm:gap-3 lg:gap-4">
                           <div
-                            class="{material.bgColorClass} p-3 sm:p-4 rounded-lg transition-transform hover:scale-105"
+                            class="bg-white/20 backdrop-blur-sm p-3 sm:p-4 rounded-lg transition-transform hover:scale-105"
                           >
                             <div
-                              class="text-lg sm:text-xl lg:text-2xl font-bold {material.textColorClass}"
+                              class="text-lg sm:text-xl lg:text-2xl font-bold text-white"
                             >
                               10+
                             </div>
-                            <div class="text-xs text-gray-600 mt-1">Modul</div>
+                            <div class="text-xs text-white/80 mt-1">Modul</div>
                           </div>
                           <div
-                            class="{material.bgColorClass} p-3 sm:p-4 rounded-lg transition-transform hover:scale-105"
+                            class="bg-white/20 backdrop-blur-sm p-3 sm:p-4 rounded-lg transition-transform hover:scale-105"
                           >
                             <div
-                              class="text-lg sm:text-xl lg:text-2xl font-bold {material.textColorClass}"
+                              class="text-lg sm:text-xl lg:text-2xl font-bold text-white"
                             >
                               5h
                             </div>
-                            <div class="text-xs text-gray-600 mt-1">Durasi</div>
+                            <div class="text-xs text-white/80 mt-1">Durasi</div>
                           </div>
                           <div
-                            class="{material.bgColorClass} p-3 sm:p-4 rounded-lg transition-transform hover:scale-105"
+                            class="bg-white/20 backdrop-blur-sm p-3 sm:p-4 rounded-lg transition-transform hover:scale-105"
                           >
                             <div
-                              class="text-lg sm:text-xl lg:text-2xl font-bold {material.textColorClass}"
+                              class="text-lg sm:text-xl lg:text-2xl font-bold text-white"
                             >
                               4.8
                             </div>
-                            <div class="text-xs text-gray-600 mt-1">Rating</div>
+                            <div class="text-xs text-white/80 mt-1">Rating</div>
                           </div>
                         </div>
 
@@ -443,28 +443,30 @@
           {#each materials as material, index}
             <button
               on:click={() => goToSlide(index)}
-              class="group relative aspect-square rounded-xl sm:rounded-2xl overflow-hidden transition-all duration-300 {material.colorClass} {index ===
+              class="group relative aspect-square rounded-xl sm:rounded-2xl overflow-hidden transition-all duration-300 bg-white {index ===
               currentIndex
-                ? 'ring-2 sm:ring-4 {material.ringColorClass} scale-105 shadow-xl sm:shadow-2xl'
-                : 'opacity-40 hover:opacity-100 hover:scale-105'}"
+                ? 'ring-2 sm:ring-4 ring-primary-500 scale-105 shadow-xl sm:shadow-2xl'
+                : 'opacity-60 hover:opacity-100 hover:scale-105'}"
             >
               <img
                 src={material.image}
                 alt={material.title}
-                class="w-full h-full object-cover opacity-20"
+                class="w-full h-full object-cover"
               />
+              <!-- Overlay gradient untuk text readability -->
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
               <div class="absolute inset-0 flex items-end p-2 sm:p-3 lg:p-4">
                 <span
-                  class="text-white text-xs sm:text-sm font-bold line-clamp-2 leading-tight"
+                  class="text-white text-xs sm:text-sm font-bold line-clamp-2 leading-tight drop-shadow-lg"
                 >
                   {material.title}
                 </span>
               </div>
               {#if index === currentIndex}
                 <div class="absolute top-1.5 right-1.5 sm:top-2 sm:right-2">
-                  <div class="bg-white rounded-full p-0.5 sm:p-1">
+                  <div class="{material.colorClass} rounded-full p-0.5 sm:p-1">
                     <svg
-                      class="w-3 h-3 sm:w-4 sm:h-4 text-primary-500"
+                      class="w-3 h-3 sm:w-4 sm:h-4 text-white"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                     >

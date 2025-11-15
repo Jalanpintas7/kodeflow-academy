@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/materi/detail/construct3/+page.svelte";
